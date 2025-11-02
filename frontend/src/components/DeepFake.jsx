@@ -415,7 +415,7 @@ const DeepfakeDetection = () => {
     setTimeout(() => {
       // Set the specific error message you requested
       setError(
-        "Sorry for the inconvenience. In the demo, we used localhost, but after deployment, we discovered that the deepfake model isn't working on the Linux backend server due to some dependency issue. Due to this, hence we had to disable this functionality."
+        "Sorry for the inconvenience. In the demo, we used localhost, but after deployment, we discovered that the deepfake model isn't working on the Linux backend server due to some dependency issue.Hence we had to disable this functionality."
       );
       setIsLoading(false);
     }, 1000); // 1-second delay
