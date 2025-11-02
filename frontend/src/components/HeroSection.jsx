@@ -27,9 +27,9 @@ export default function HeroSection() {
         
         {/* CTA Buttons with glow effect */}
         <div className="flex flex-col sm:flex-row gap-4 mb-16">
-          <Link to="/analysis"><button className="px-8 py-3 bg-[#00FF41] text-[#0D0208] hover:bg-white rounded-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-indigo-500/30">
+          <button className="px-8 py-3 bg-[#00FF41] text-[#0D0208] hover:bg-white rounded-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-indigo-500/30">
             Analyze Now
-          </button></Link>
+          </button>
           <Link to="/casestudy"><button className="px-8 py-3 border border-gray-600 hover:border-[#00FF41] rounded-lg font-medium transition-all duration-300 hover:bg-gray-800/50 backdrop-blur-sm">
             Learn More
           </button></Link>
