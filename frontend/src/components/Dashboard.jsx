@@ -194,8 +194,8 @@ import { FaShieldAlt, FaUser, FaCog,FaChartBar , FaSignOutAlt, FaLock, FaEye, Fa
 import { toast } from 'react-hot-toast';
 
 // Get the API URL from Vite's env variables
-const API_URL = import.meta.env.VITE_API_BASE || "http://localhost:5000/api";
-
+// const API_URL = import.meta.env.VITE_API_BASE || "http://localhost:5000/api";
+const API_URL = "https://inkspectorxtrustnetcybercorp-node-backend.onrender.com/api";
 /**
  * Helper function to make authenticated API calls
  */

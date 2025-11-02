@@ -4,7 +4,7 @@ import { MdGesture, MdClose, MdUpload } from 'react-icons/md';
 
 const API_BASE =
   (import.meta && import.meta.env && import.meta.env.VITE_API_BASE) ||
-  'http://127.0.0.1:8000';
+  'http://139.59.49.228:5000/';
 
 const DeepfakeDetection = () => {
   const [file, setFile] = useState(null);

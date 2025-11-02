@@ -26,7 +26,7 @@ const BioAuthenticityCheck = () => {
     setResults(null);
 
     try {
-      const res = await fetch("http://127.0.0.1:8000/api/check", {
+      const res = await fetch("http://139.59.49.228:5000/api/check", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

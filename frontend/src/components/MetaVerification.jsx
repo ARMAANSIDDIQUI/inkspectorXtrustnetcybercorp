@@ -62,7 +62,7 @@ const MetadataVerification = () => {
       const formData = new FormData();
       formData.append('file', file);
 
-      const res = await fetch('http://127.0.0.1:8000/api/metadata', {
+      const res = await fetch('http://139.59.49.228:5000/api/metadata', {
   method: 'POST',
   body: formData,
 });

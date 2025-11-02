@@ -306,7 +306,8 @@ import { SiGithub, SiGoogle } from 'react-icons/si';
 import { toast } from 'react-hot-toast';
 
 // Get the API URL from Vite's env variables (to fix 'process is not defined' error)
-const API_URL = import.meta.env.VITE_API_BASE || "http://localhost:5000/api";
+//const API_URL = import.meta.env.VITE_API_BASE || "http://localhost:5000/api";
+const API_URL = "https://inkspectorxtrustnetcybercorp-node-backend.onrender.com/api";
 
 const Register = () => {
   const [formData, setFormData] = useState({
